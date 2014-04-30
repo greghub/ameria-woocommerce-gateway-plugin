@@ -10,6 +10,7 @@ License: MIT License
 */
 
 session_start();
+
 //Additional links on the plugin page
 add_filter( 'plugin_row_meta', 'ameria_register_plugin_links', 10, 2 );
 function ameria_register_plugin_links($links, $file) {
